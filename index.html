@@ -1,0 +1,285 @@
+<!Doctype HTML>
+<html lang="en">
+<head>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'/>
+	<meta charset="UTF-8"> 
+	<!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<!-- Semantic Main CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+	<!-- Semantic Reset CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/components/reset.min.css"/>
+	<!-- Semantic Menu CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/components/menu.min.css"/>
+	<!-- Main Semantic JS  -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+  <!--custom js file-->
+  <script type="text/javascript" src="custom.js"></script>
+  <!--favicon-->
+  <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+
+<!--icon styling-->
+  <style type="text/css">
+  body {
+    background-color: #FFFFFF;
+  }
+  .ui.menu .item img.logo {
+    margin-right: 1.5em;
+  }
+  .main.container {
+    margin-top: 7em;
+  }
+  .wireframe {
+    margin-top: 2em;
+  }
+
+  </style>
+
+</head>
+
+<title> JDP Subscription </title>
+
+<body>
+
+
+  <div class="ui inverted menu">
+    <div class="ui container">
+      <a href="#" class="header item">
+        <img class="logo" src="logo.png">
+        UST
+      </a>
+      <a href="#" class="item">Home</a>
+      <a href="#" class="item">Contact Us</a>
+    </div>
+  </div>
+
+
+<div class="ui center aligned segment">
+  <h2 class="ui center aligned header">JDP Subscription</h2>
+  <p>Answer these few questions and find out if you 
+  should opt for the new JAVA SE subscription or not</p>
+</div>
+
+
+
+<form class="ui form">
+<!--Question 1-->
+<div class="ui raised very padded text container segment">
+  <h4 class="ui dividing header">Answer the following questions and get your recommendation</h4>
+  <div class="grouped fields">
+    <label for="q1"> Java version currently in use? </label>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q1" id="q01N" tabindex="0" class="hidden">
+        <label>Java 8</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q1" id="q01N" tabindex="0" class="hidden">
+        <label>Java 9</label>
+      </div>
+    </div>
+        <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q1" id="q01N" tabindex="0" class="hidden">
+        <label>Java 10</label>
+      </div>
+    </div>
+      <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q1" id="q01Y" tabindex="0" class="hidden">
+        <label>Java 11+</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--question2-->
+<div class="ui raised very padded text container segment">
+  <div class="grouped fields">
+    <label for="q2"> Are you using services like AWS,Redhat etc? </label>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q2" id="q02Y" tabindex="0" class="hidden">
+        <label>Yes</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q2" id="q02N" tabindex="0" class="hidden">
+        <label>No</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--question 3-->
+<div class="ui raised very padded text container segment">
+  <div class="grouped fields">
+    <label for="q3"> Does your software have sensitive information? </label>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q3" id="q03Y"  tabindex="0" class="hidden">
+        <label>Yes</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q3" id="q03N" tabindex="0" class="hidden">
+        <label>No</label>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<!--question 4-->
+<div class="ui raised very padded text container segment">
+  <div class="grouped fields">
+    <label for="q4"> 24x7 support from Oracle? </label>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q4" id="q04Y" tabindex="0" class="hidden">
+        <label>Yes</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q4" id="q04N" tabindex="0" class="hidden">
+        <label>No</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Question 5-->
+<div class="ui raised very padded text container segment">
+  <div class="grouped fields">
+    <label for="q5"> Are you using different versions of JAVA within the company </label>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q5" id="q05Y" tabindex="0" class="hidden">
+        <label>Yes</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q5" id="q05N" tabindex="0" class="hidden">
+        <label>No</label>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<!--Question 6-->
+<div class="ui raised very padded text container segment">
+  <div class="grouped fields">
+    <label for="q6"> Do you use additional components offered by oracle like JRockit etc? </label>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q6" id="q06Y" tabindex="0" class="hidden">
+        <label>Yes</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q6" id="q06N" tabindex="0" class="hidden">
+        <label>No</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Querstion 7-->
+<div class="ui raised very padded text container segment">
+  <div class="grouped fields">
+    <label for="q7"> Are you planning to use JAVA for a longer period of time? </label>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q7" id="q07Y"  tabindex="0" class="hidden">
+        <label>Yes</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q7" id="q07N" tabindex="0" class="hidden">
+        <label>No</label>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<!--Question 8-->
+<div class="ui raised very padded text container segment">
+  <div class="grouped fields">
+    <label for="q8">  What is the nature of your project ( short term or long term) </label>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q8" id="q08S" tabindex="0" class="hidden">
+        <label>Short term</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q8" id="q08L" tabindex="0" class="hidden">
+        <label>Long Term</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Question 9-->
+<div class="ui raised very padded text container segment">
+  <div class="grouped fields">
+    <label for="q9">  Do you already have existing licenceing by oracle? </label>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q9" id="q09Y"  tabindex="0" class="hidden">
+        <label>Yes</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q9" id="q09N" tabindex="0" class="hidden">
+        <label>No</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Question 10-->
+<div class="ui raised very padded text container segment">
+  <div class="grouped fields">
+    <label for="q10">  Do you need Licensing and support for cloud,server and desktop deployment </label>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q10"  tabindex="0" id="q10Y" class="hidden">
+        <label>Yes</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="q10" tabindex="0" id="q10N" class="hidden">
+        <label>No</label>
+      </div>
+    </div>
+  </div>
+</div>
+</form>
+<div class="ui segment">
+<button class="ui primary test button" onclick="checkForm()" type="submit">Submit</button>  
+</div>
+
+<div class="ui segment">
+  <h2 class="ui header">Result</h2>
+  <h3 id="out"></h3>
+</div>
+
+
+<div class="ui center aligned inverted vertical footer segment">
+    <div class="ui container">
+        UST Global. All Rights Reserved
+    </div>
+</div>
+</body>
+</html>
