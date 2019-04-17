@@ -14,7 +14,7 @@
 	<!-- Main Semantic JS  -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
   <!--custom js file-->
-  <script type="text/javascript" src="static/js/custom.js"></script>
+  <script type="text/javascript" src="custom.js"></script>
   <!--favicon-->
   <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
 
@@ -45,7 +45,7 @@
   <div class="ui inverted menu">
     <div class="ui container">
       <a href="#" class="header item">
-        <img class="logo" src="static/images/logo.png">
+        <img class="logo" src="logo.png">
         UST
       </a>
       <a href="#" class="item">Home</a>
@@ -55,7 +55,7 @@
 
 
 <div class="ui center aligned segment">
-  <h2 class="ui center aligned header">JDP Subscription</h2>
+  <h2 class="ui center aligned header">JAVA SE Subscription</h2>
   <p>Answer these few questions and find out if you 
   should opt for the new JAVA SE subscription or not</p>
 </div>
@@ -67,22 +67,22 @@
 <div class="ui raised very padded text container segment">
   <h4 class="ui dividing header">Answer the following questions and get your recommendation</h4>
   <div class="grouped fields">
-    <label for="q1"> Java version currently in use? </label>
+    <label for="q1"> 1. Java version currently in use? </label>
     <div class="field">
       <div class="ui radio checkbox">
-        <input type="radio" name="q1" id="q01N" tabindex="0" class="hidden">
+        <input type="radio" name="q1" id="q01-8" tabindex="0" class="hidden">
         <label>Java 8</label>
       </div>
     </div>
     <div class="field">
       <div class="ui radio checkbox">
-        <input type="radio" name="q1" id="q01N" tabindex="0" class="hidden">
+        <input type="radio" name="q1" id="q01-9" tabindex="0" class="hidden">
         <label>Java 9</label>
       </div>
     </div>
         <div class="field">
       <div class="ui radio checkbox">
-        <input type="radio" name="q1" id="q01N" tabindex="0" class="hidden">
+        <input type="radio" name="q1" id="q01-10" tabindex="0" class="hidden">
         <label>Java 10</label>
       </div>
     </div>
@@ -96,9 +96,9 @@
 </div>
 
 <!--question2-->
-<div class="ui raised very padded text container segment">
+<div class="ui very padded text container segment">
   <div class="grouped fields">
-    <label for="q2"> Are you using services like AWS,Redhat etc? </label>
+    <label for="q2"> 2. Do you need early access to security patches and critical bugfixes?  </label>
     <div class="field">
       <div class="ui radio checkbox">
         <input type="radio" name="q2" id="q02Y" tabindex="0" class="hidden">
@@ -117,7 +117,7 @@
 <!--question 3-->
 <div class="ui raised very padded text container segment">
   <div class="grouped fields">
-    <label for="q3"> Does your software have sensitive information? </label>
+    <label for="q3"> 3.Are you using services which has their own OpenJDK like AWS, Redhat, Azul etc? </label>
     <div class="field">
       <div class="ui radio checkbox">
         <input type="radio" name="q3" id="q03Y"  tabindex="0" class="hidden">
@@ -136,7 +136,7 @@
 <!--question 4-->
 <div class="ui raised very padded text container segment">
   <div class="grouped fields">
-    <label for="q4"> 24x7 support from Oracle? </label>
+    <label for="q4"> 4. Do you need access to analytical tools like Advance managment console etc provided by Oracle?</label>
     <div class="field">
       <div class="ui radio checkbox">
         <input type="radio" name="q4" id="q04Y" tabindex="0" class="hidden">
@@ -155,7 +155,7 @@
 <!--Question 5-->
 <div class="ui raised very padded text container segment">
   <div class="grouped fields">
-    <label for="q5"> Are you using different versions of JAVA within the company </label>
+    <label for="q5"> 5. Are you using different versions of JAVA within the company? </label>
     <div class="field">
       <div class="ui radio checkbox">
         <input type="radio" name="q5" id="q05Y" tabindex="0" class="hidden">
@@ -174,7 +174,7 @@
 <!--Question 6-->
 <div class="ui raised very padded text container segment">
   <div class="grouped fields">
-    <label for="q6"> Do you use additional components offered by oracle like JRockit etc? </label>
+    <label for="q6"> 6. Do you use additional components offered by oracle like JRockit, Mission Control, Real time etc. ? </label>
     <div class="field">
       <div class="ui radio checkbox">
         <input type="radio" name="q6" id="q06Y" tabindex="0" class="hidden">
@@ -193,7 +193,7 @@
 <!--Querstion 7-->
 <div class="ui raised very padded text container segment">
   <div class="grouped fields">
-    <label for="q7"> Are you planning to use JAVA for a longer period of time? </label>
+    <label for="q7"> 7. Do you need round the clock support from Oracle (MOS) </label>
     <div class="field">
       <div class="ui radio checkbox">
         <input type="radio" name="q7" id="q07Y"  tabindex="0" class="hidden">
@@ -212,17 +212,17 @@
 <!--Question 8-->
 <div class="ui raised very padded text container segment">
   <div class="grouped fields">
-    <label for="q8">  What is the nature of your project ( short term or long term) </label>
+    <label for="q8">  8. Do you intend to use the latest JAVA version and upgrade it every 6 months? </label>
     <div class="field">
       <div class="ui radio checkbox">
-        <input type="radio" name="q8" id="q08S" tabindex="0" class="hidden">
-        <label>Short term</label>
+        <input type="radio" name="q8" id="q08Y" tabindex="0" class="hidden">
+        <label>Yes</label>
       </div>
     </div>
     <div class="field">
       <div class="ui radio checkbox">
-        <input type="radio" name="q8" id="q08L" tabindex="0" class="hidden">
-        <label>Long Term</label>
+        <input type="radio" name="q8" id="q08N" tabindex="0" class="hidden">
+        <label>No</label>
       </div>
     </div>
   </div>
@@ -231,7 +231,7 @@
 <!--Question 9-->
 <div class="ui raised very padded text container segment">
   <div class="grouped fields">
-    <label for="q9">  Do you already have existing licenceing by oracle? </label>
+    <label for="q9"> 9. Does your project need optimised runtime/ low resource usage </label>
     <div class="field">
       <div class="ui radio checkbox">
         <input type="radio" name="q9" id="q09Y"  tabindex="0" class="hidden">
@@ -250,7 +250,7 @@
 <!--Question 10-->
 <div class="ui raised very padded text container segment">
   <div class="grouped fields">
-    <label for="q10">  Do you need Licensing and support for cloud,server and desktop deployment </label>
+    <label for="q10">  10. Do you need Licensing and support for cloud, server and desktop deployment? </label>
     <div class="field">
       <div class="ui radio checkbox">
         <input type="radio" name="q10"  tabindex="0" id="q10Y" class="hidden">
@@ -274,6 +274,7 @@
   <h2 class="ui header">Result</h2>
   <h3 id="out"></h3>
 </div>
+
 
 
 <div class="ui center aligned inverted vertical footer segment">
